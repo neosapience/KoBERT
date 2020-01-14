@@ -48,7 +48,7 @@ bert_config = {
 }
 
 
-def get_pytorch_kobert_model(ctx='cpu', cachedir='~/kobert/'):
+def get_pytorch_kobert_model(ctx='cpu', cachedir='./kobert/'):
     # download model
     model_info = pytorch_kobert
     model_path = _download(model_info['url'],
